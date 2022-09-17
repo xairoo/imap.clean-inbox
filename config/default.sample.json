@@ -1,0 +1,13 @@
+{
+  "accounts": [
+    {
+      "auth": { "user": "example@gmail.com", "pass": "password" },
+      "host": "imap.gmail.com",
+      "port": 993,
+      "secure": true,
+      "archive": ["Archive", "{YEAR}"],
+      "ignoreFlags": ["\\Flagged"],
+      "age": 604800
+    }
+  ]
+}

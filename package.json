@@ -1,0 +1,34 @@
+{
+  "name": "imap.clean-inbox",
+  "version": "1.0.0",
+  "description": "Keep you IMAP inbox clean. This script moves old messages into an archive.",
+  "main": "index.js",
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": " >=15.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xairoo/imap.clean-inbox.git"
+  },
+  "author": {
+    "name": "Marcel Zurreck",
+    "email": "marcel.zurreck@gmail.com",
+    "url": "https://marcel.zurreck.com"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "imap"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.8",
+    "imapflow": "^1.0.107",
+    "nodemon": "^2.0.20"
+  }
+}
